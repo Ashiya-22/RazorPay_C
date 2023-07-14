@@ -1,0 +1,33 @@
+/* Tailwind Imports */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* External CSS */
+
+.Core-Features-Section{
+    background-size: 100% 100%;
+    padding-top: 4rem;
+    padding-bottom: 12rem;
+}
+
+.CTABSec{
+    background-size: 100% 100%;
+}
+
+.MoveUP{
+    background-image: url(comanies.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: MoveCompanies 200000s linear infinite;
+}
+
+@keyframes MoveCompanies {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 0 -10000000px;
+    }
+}
